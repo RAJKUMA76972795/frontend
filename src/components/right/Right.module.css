@@ -1,0 +1,24 @@
+.right{
+    background-color: white;
+    /* margin-top: 5px; */
+    height: calc( 100vh - 105px);
+    border-radius: 5px;
+}
+
+.rightHeading{
+    background: linear-gradient(-180deg, #2E4B5E 0%, #243A48 82%);
+    height: 30px;
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .right{
+        display: none;
+    }
+}

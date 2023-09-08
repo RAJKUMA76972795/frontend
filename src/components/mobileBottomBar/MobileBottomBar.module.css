@@ -1,0 +1,51 @@
+.mobileBottomBar {
+  display: none;
+}
+
+.bottomIconStyle {
+  height: 7vw;
+}
+
+.mobileBottomBarItemFull {
+  padding: 8px;
+  padding-top: 10px;
+  width: 20vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 960px) {
+  .mobileBottomBar {position: fixed;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, #2a3a43 27%, #1c282d 83%);
+    color: hwb(0 100% 0%);
+    width: 100vw;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileBottomBarItem {
+    position: relative;
+    padding: 8px;
+    padding-top: 10px;
+    width: 20vw;
+    height: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 99;
+  }
+
+  
+}

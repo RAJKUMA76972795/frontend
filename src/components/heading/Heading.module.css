@@ -1,0 +1,7 @@
+.heading{
+    background: linear-gradient(180deg, #2A3A43 27%, #1C282D 83%);
+    padding: 10px;
+    color:white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}

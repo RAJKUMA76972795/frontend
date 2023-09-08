@@ -1,0 +1,46 @@
+.account{
+    background:  #fffb;
+    display: flex;
+    flex-direction: column;
+}
+
+.accountTop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    background: linear-gradient(-180deg, #2E4B5E 0%, #243A48 82%);
+    gap: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.accountMiddle{
+    display: flex;
+    flex-direction: column;
+}
+
+.accountMiddleItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #e0e6e6;
+    cursor: pointer;
+}
+
+.accountBottom{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8a0011;
+    background: linear-gradient(-180deg,#e93522 0,#be2414 100%);
+    font-size: 4.26667vw;
+    font-weight: 700;
+    padding: 2vw;
+    color: white;
+    cursor: pointer;
+    gap: 5px;
+}

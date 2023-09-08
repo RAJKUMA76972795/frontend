@@ -1,0 +1,107 @@
+.main {
+  background-color: #e4e5e6;
+  margin: 0px 10px;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  /* margin-bottom: 100px; */
+}
+.casinoname {
+  padding: 8px;
+  margin: 12px;
+  margin-top: 0px;
+  width: 600px;
+  max-width: 95vw;
+  font-weight: 900;
+  color: black;
+  height: 30px;
+  pointer-events: none;
+  text-decoration: none;
+  background: linear-gradient(#a4dc60 0%, #4f9f21 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+img[_ngcontent-ovg-c3] {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  padding-bottom: 0px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+user agent stylesheet img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.subHeaderBottom {
+  display: none;
+}
+
+.text {
+  background-color: #2a3a43;
+  color: white;
+  width: 100%;
+  font-size: 13px;
+  height: 28px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.searchClass {
+  display: none;
+}
+
+.androidApk {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .subHeaderBottom {
+    /* margin-top: 5px; */
+    display: block;
+    max-width: calc(90vw - 10px);
+    overflow: auto;
+  }
+
+  .searchClass {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(10vw + 10px);
+    background-image: linear-gradient(180deg, #525252 0, #2d2d2d 100%);
+    height: 45px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    margin: 0;
+  }
+
+  .androidApk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}

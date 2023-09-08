@@ -1,0 +1,70 @@
+.subHeader {
+  background: linear-gradient(-180deg, #184438 0, #14805e 100%);
+  
+  
+  width: calc(100vw -20px);
+  position: relative;
+}
+
+.subHeaderMain{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  height: 28px;
+  max-width: 90%;
+  padding: 0px 10px;
+}
+
+.subHeaderMain::-webkit-scrollbar{
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.subHeaderMain::-webkit-scrollbar-thumb{
+  border-radius: 0.5rem;
+  background-color: #0004;
+}
+
+.subHeaderItem {
+  /* margin: 0px 5px; */
+  padding: 0px 10px;
+  border-right: 1px solid #797777;
+  font-size: 13px;
+  font-weight: 650;
+
+  /* cursor: pointer; */
+}
+
+.settings{
+  position: absolute;
+  top: 5px;
+  right:5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+@keyframes newLaunch {
+  0%   {color:red;}
+  50%  {color: yellow;}
+  100% {color: blue;}
+
+}
+
+.casino{
+  transition: .1s ease-in;
+  -webkit-animation: 1s infinite newLaunch;
+  animation: 1s infinite newLaunch;
+}
+
+@media screen and (max-width: 960px) {
+  .subHeader {
+    display: none;
+  }
+}

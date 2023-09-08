@@ -1,0 +1,34 @@
+
+.myLoader img {
+    height: 40px;
+    
+  }
+  
+  
+  
+  
+  .myLoaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(90px);
+  }
+  
+  .myLoader {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  
+  .loadingText {
+    margin-top: -30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  
+  

@@ -1,0 +1,150 @@
+.betList{
+
+    min-height: 100vh;
+    background-color: #eff3f7;
+    padding: 20px;
+}
+
+.getStatement{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #e4e5e6;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.getStatementItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.getStatementSubItem{
+    border: 1px solid #c8ced3;
+    border-radius: 5px;
+    background-color: #c8ced3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userData {
+    background-color: white;
+    padding: 10px;
+    color: #243a48;
+}
+.search {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchLeft {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.searchRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.tableBoody{
+    /* display: none; */
+    width: 100%;
+    max-height: calc( 89% - 1.6rem );
+    background-color: #fffb;
+    margin: .8rem auto ;
+    overflow: auto;
+}
+
+.tableBoody::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.tableBoody::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: #0004;
+}
+.table{
+    width: 100%;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+ .td{
+    padding: .5rem;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.th{
+    padding: .5rem;
+    border-collapse: collapse;
+    border: 1px solid #c8ced3;
+}
+
+.tr{
+    border: 1px solid #c8ced3;
+}
+
+.thead .th{
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    background-color: #e4e4e4;
+}
+
+.tablePagination {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tablePaginationRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .betList{
+        width: 98vw;
+        margin: auto;
+    }
+
+    .getStatement{
+        width: 100%;
+        /* margin: 5px; */
+        /* border: 1px solid black; */
+    }
+
+    .tableBoody{
+        width: 98%;
+    }
+
+    .betList {
+        padding: 5px;
+    }
+
+    .search,
+    .tablePagination {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.appMain{
+  margin: 0px 15px;
+  display: grid;
+  grid-template-columns: 2fr 7fr 3fr;
+}
+
+
+@media screen and (max-width: 960px) {
+  .appMain{
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+}

@@ -1,0 +1,81 @@
+.settingPopup {
+  position: absolute;
+  top: 5px;
+  left: 2.5vw;
+  width: 95vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  z-index: 11;
+}
+
+.settingPopupHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  background: linear-gradient(#a4dc60 0%, #4f9f21 100%);
+  padding: 6px;
+  flex: 0 0 10.4vw;
+  display: flex;
+}
+
+.settingPopupHeadingLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.settingPopupSubHeading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1.86667vw;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-image: linear-gradient(-180deg, #2e4b5e 0, #243a48 82%);
+  color: #fff;
+  font-size: 3.73333vw;
+  line-height: 2.2;
+}
+
+.settingPopupMain {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.settingPopupMainItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.inputStyle {
+  outline: none;
+  padding: 15px 10px;
+  min-width: 64px;
+  width: 23% !important;
+  max-width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+.btn {
+  background-image: linear-gradient(-180deg, #315195 0%, #14213d 100%);
+  line-height: 1;
+  border-color: linear-gradient(-180deg, #315195 0%, #14213d 100%);
+  color: ivory;
+  display: block;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 2.5vw;
+  font-size: 4vw;
+  padding: 10px 5px;
+  width: 100%;
+  height: 40px;
+}

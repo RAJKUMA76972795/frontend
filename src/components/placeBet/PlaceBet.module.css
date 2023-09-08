@@ -1,0 +1,87 @@
+.placeBet {
+  width: 100%;
+  /* background-color: rgb(196, 220, 242); */
+}
+
+.placeBetTop {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+}
+
+.placeBetTopItem{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  border: 1px solid #e6dfcd;
+  border-radius: 5px;
+}
+
+.inputStyle {
+  
+  outline: none;
+  padding: 5px;
+  border: none;
+  text-align: center;
+}
+
+.placeBetBottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 5px;
+}
+
+.placeBetBottomItem {
+  outline: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 60px;
+  flex: 1;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(238, 238, 238)
+  );
+}
+
+.placeBetMobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;height: 38px;
+  cursor: pointer;
+}
+
+.btnDisabled {
+  color: #e6dfcd;
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600; 
+  height: 38px;
+}
+
+@media screen and (max-width: 480px) {
+  .inputStyle{
+    width: 25vw;
+  }
+}

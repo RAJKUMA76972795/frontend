@@ -1,0 +1,36 @@
+.rollingCommission{
+    position: absolute;
+    top: 100px;
+    left: 50vw;
+    transform: translate(-50%, 0);
+    width: 600px;
+    max-width: 90vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding:  0;
+    box-shadow: 0 1px 20px 0 rgb(0 0 0 /30%);
+
+}
+
+.showItems{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.showItem{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 700;
+    color: #23282c;
+}

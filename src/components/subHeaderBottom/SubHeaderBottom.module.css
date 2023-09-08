@@ -1,0 +1,41 @@
+.subHeader {
+  background: linear-gradient(#a4dc60 0%, #4f9f21 100%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 3px;
+  padding-top: 5px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+
+.subHeaderItem {
+  padding: 5px 5.9px;
+  font-size: 15px;
+  font-weight: 650;
+  height: 40px;
+}
+
+
+
+@keyframes newLaunch {
+  0%   {color:red;}
+  50%  {color: yellow;}
+  100% {color: blue;}
+
+}
+
+@media screen and (max-width: 960px) {
+  .subHeader {
+    overflow-x: scroll;
+    width: calc(100% - 0px);
+  }
+
+  .casino{
+    transition: .1s ease-in;
+    -webkit-animation: 1s infinite newLaunch;
+    animation: 1s infinite newLaunch;
+  }
+}

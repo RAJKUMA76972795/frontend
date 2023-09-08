@@ -1,0 +1,67 @@
+.bet{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 11;
+}
+
+.betHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(#A4DC60 0%, #4F9F21 100%);
+    padding: 10px;
+}
+
+.tableBoody{
+    /* display: none; */
+    width: 100%;
+    /* max-height: calc( 89% - 1.6rem ); */
+    background-color: #fffb;
+    margin: .8rem auto ;
+    overflow: auto;
+    padding: 5px;
+}
+
+.tableBoody::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.tableBoody::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: #0004;
+}
+.table{
+    width: 100%;
+    padding: 1rem;
+    border-collapse: collapse;
+    overflow: auto;
+}
+ .td{
+    padding: .5rem;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #c8ced3;
+    
+}
+
+.th{
+    padding: .5rem;
+    border-collapse: collapse;
+    border: 1px solid #c8ced3;
+}
+
+.tr{
+    border: 1px solid #c8ced3;
+}
+
+.thead .th{
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    background-color: #e4e4e4;
+}

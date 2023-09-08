@@ -1,0 +1,134 @@
+.inplayNav {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: calc(100% - 20px);
+  border: 1px solid #3b5160;
+  border-radius: 5px;
+}
+
+.inplayItem {
+  text-align: center;
+  flex: 1;
+  cursor: pointer;
+  height: 38px;
+  padding: 10px;
+  font-weight: 700;
+  border-right: 1px solid #3b5160;
+  color: white;
+}
+
+.inplayItem:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.inplayItem:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: none;
+}
+
+.tableBoody {
+  width: 100%;
+  background-color: #fffb;
+  margin-top: 0px;
+  overflow: auto;
+}
+
+.tableBoody::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.tableBoody::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: #0004;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #265e04;
+
+}
+.td {
+  padding: 0.3rem;
+  border-collapse: collapse;
+  text-align: center;
+  display: flex;
+}
+
+.th {
+  padding: 0 0.5rem;
+  border-collapse: collapse;
+  border: 0.5px solid #c8ced3;
+}
+
+.tr {
+  border: 0.5px solid #c8ced3;
+  display: flex;
+}
+
+tr:hover {
+  background-color: rgb(238, 229, 229);
+}
+
+.thead .th {
+  position: sticky;
+  top: 0;
+  /* left: 0; */
+  background-color: #e4e4e4;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.middle1 {
+  flex: 1;
+  padding: 5px 12px;
+  background-color: #72bbef; 
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.middle2 {
+  flex: 1;
+  padding: 5px 12px;
+  background-color: #faa9ba;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.gameTitle {
+  color: #2789ce;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .gameTitle {
+    color: #2789ce;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .mobileTh {
+    display: none;
+  }
+
+  .mobileTd {
+    display: none;
+  }
+}
